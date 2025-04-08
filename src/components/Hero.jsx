@@ -25,7 +25,7 @@ const Hero = () => {
             <button 
               onClick={handleTryDemo}
               className="border rounded-md px-6 py-3 font-medium text-lg bg-[#3730A3] text-[#FFFFFF] border-[#3730A3] hover:bg-[#2b2582] transition-colors">
-              Try Demo
+              Join Our Beta Program
             </button>
           </div>
         </div>
