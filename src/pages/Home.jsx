@@ -1,11 +1,21 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import ToolCard from '../components/ToolCard';
+import HeroImage from '../assets/Hero.png';
 import CamFiToolLogo from '../assets/CamFiToolLogo.png';
 import CamGenToolLogo from '../assets/CamGenToolLogo.png';
 import CamTrainToolLogo from '../assets/CamTrainToolLogo.png';
 import CamQToolLogo from '../assets/CamQToolLogo.png';
 import GenerativeZooLogo from '../assets/GenerativeZoo.png';
+
+const heroData = {
+  title: "Artificial Intelligence Powered Synthetic Vision Solution for Industrial Applications",
+  description: "TASTI WEB PLATFORM is an innovative solution designed to create synthetic images for industrial applications. Our platform uses artificial intelligence to revolutionize image creation processes for factories and production facilities. Whether for product development, quality control or process optimization, TASTI Web Platform offers powerful and user-friendly tools to create visuals that fit your business",
+  buttonText: "Join Our Beta Program",
+  buttonLink: "/trydemo",
+  image: HeroImage,
+  imageAlt: "TASTI Platform"
+};
 
 const tools = [
   {
@@ -69,15 +79,13 @@ const tools = [
 const Home = () => {
   return (
     <div>
-      <Hero />
+      <Hero {...heroData} />
       <h2 className="text-3xl font-bold mt-10 mb-6">Innovative Tools</h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {tools.map((tool, index) => (
           <ToolCard key={index} {...tool} />
         ))}
       </div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home page!</p>
     </div>
   );
 };
