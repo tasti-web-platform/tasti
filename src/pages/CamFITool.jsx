@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import ToolDataCard from '../components/ToolDataCard';
 import CamFIToolImage from '../assets/CamFITool.png';
 import CamFIToolData1 from '../assets/CamFIToolData1.png';
-import CamFIToolData2 from '../assets/CamFIToolData2.png';
+import UseCase from '../assets/UseCase.png';
 
 const heroData = {
   title: "CamFITool",
@@ -33,7 +33,7 @@ const toolData2 = {
     "Improving model performance by selecting the most appropriate images",
     "Analyze the differences between real and synthetic images"
   ],
-  image: CamFIToolData2,
+  image: UseCase,
   imageAlt: "CamFITool Use Cases"
 };
 

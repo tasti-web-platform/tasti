@@ -1,19 +1,48 @@
 import React from 'react';
 import Hero from '../components/Hero';
+import ToolDataCard from '../components/ToolDataCard';
 import CamGenToolImage from '../assets/CamGenTool.png';
+import CamGenToolData1 from '../assets/CamGenToolData1.png';
+import UseCase from '../assets/UseCase.png';
 
 const heroData = {
-  title: "CamGenTool - Synthetic Image Generation",
-  description: "Generate high-quality synthetic images based on your sample images. Create multiple variations with customizable parameters, adjust positions, colors, and lighting conditions. Perfect for creating large datasets with controlled variations.",
+  title: "CamGenTool",
+  description: "CamGenTool is a powerful tool for automatic creation of synthetic images based on sample images. This tool allows you to create images that are similar to real images but completely synthetic.",
   image: CamGenToolImage,
   imageAlt: "CamGenTool Demo"
 };
 
+const toolData1 = {
+  title: "Features",
+  features: [
+    "Synthetic image generation based on sample images",
+    "Create several variations with different parameters",
+    "Adjust position, color and size of objects",
+    "Customize image background and lighting conditions",
+    "Create large data sets with batch production"
+  ],
+  image: CamGenToolData1,
+  imageAlt: "CamGenTool Features"
+};
+
+const toolData2 = {
+  title: "Use Cases",
+  features: [
+    "Product visualization and prototyping",
+    "Generating training data for machine learning",
+    "Simulation of difficult to collect situations",
+    "Visual design of production processes"
+  ],
+  image: UseCase,
+  imageAlt: "CamGenTool Use Cases"
+};
+
 const CamGenTool = () => {
   return (
-    <div>
+    <div className="space-y-16 py-8">
       <Hero {...heroData} />
-      {/* Additional content will go here */}
+      <ToolDataCard {...toolData1} />
+      <ToolDataCard {...toolData2} />
     </div>
   );
 };
