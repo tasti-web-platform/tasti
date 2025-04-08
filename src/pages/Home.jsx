@@ -72,7 +72,8 @@ const tools = [
     description: [
       'GenerativeZoo is an innovative generative algorithm library developed using Python and PyTorch. Developed within the Xecs TASTI project (nr. 2022005), it is a unique collection of 27 different models, brought together by standardized, user-friendly and independent code structures. The library offers practical solutions to researchers and developers with comprehensive documentation and example scenarios.'
     ],
-    link: '' // No link for GenerativeZoo
+    link: '',
+    showLink: false
   }
 ];
 

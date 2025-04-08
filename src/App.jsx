@@ -10,11 +10,13 @@ import CamFITool from './pages/CamFITool';
 import CamGenTool from './pages/CamGenTool';
 import CamTrainTool from './pages/CamTrainTool';
 import CamQTool from './pages/CamQTool';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <NavBar />
       <MainPage>
         <Routes>
