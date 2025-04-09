@@ -7,7 +7,7 @@ The TASTI Vite project is designed to provide a synthetic vision solution for in
 Follow these steps to publish this project on GitHub Pages using your own repository:
 
 ### Step 1: Fork the Repository
-1. Go to the [original repository](https://github.com/your-username/tasti-vite) on GitHub.
+1. Go to the original repository on GitHub.
 2. Click the "Fork" button at the top-right corner of the page to create a copy of the repository under your GitHub account.
 
 ### Step 2: Clone the Repository
