@@ -21,11 +21,11 @@ const Hero = ({ title, description, image, imageAlt }) => {
                   '_blank'
                 )
               }
-              className="border rounded-md px-6 py-3 font-medium text-lg bg-[#1F2937] text-[#FFFFFF] border-[#1F2937] hover:bg-[#374151] transition-colors"
+              className="border rounded-md px-6 py-3 font-medium text-lg bg-[#374151] text-[#FFFFFF] border-[#374151] hover:bg-[#1F2937] transition-colors"
             >
               Join Our Beta Program
             </button>
-          </div>
+          </div>,
         </div>
 
         <div className="w-full sm:w-1/2 flex justify-center">

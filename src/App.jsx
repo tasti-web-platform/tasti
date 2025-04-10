@@ -10,6 +10,7 @@ import CamFITool from './pages/CamFITool';
 import CamGenTool from './pages/CamGenTool';
 import CamTrainTool from './pages/CamTrainTool';
 import CamQTool from './pages/CamQTool';
+import WhatIsTasti from './pages/WhatIsTasti';
 import ScrollToTop from './components/ScrollToTop';
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <MainPage>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/what-is-tasti" element={<WhatIsTasti />} />
           {/*<Route path="/contactus" element={<ContactUs />} />
           <Route path="/trydemo" element={<TryDemo />} />*/}
           <Route path="/camfitool" element={<CamFITool />} />
