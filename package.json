@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://burak-salca.github.io/tasti-vite",
+  "homepage": "https://tasti-web-site.github.io/tasti-vite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

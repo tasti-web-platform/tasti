@@ -1,54 +1,43 @@
-# TASTI Vite Project
+# TASTI Web Platform Wishlist Page
 
-## Project Purpose
-The TASTI Vite project is designed to provide a synthetic vision solution for industrial applications. It leverages artificial intelligence to create synthetic images for various purposes such as product development, quality control, and process optimization. The platform offers a suite of tools to generate, analyze, and train models on synthetic data, making it a powerful resource for industries looking to enhance their visual data capabilities.
+TASTI WEB PLATFORM is an innovative solution developed by [ACD Veri Mühendisliği](https://www.acd.com.tr/) within the TASTI project, designed to create synthetic images for industrial applications. The platform consists of four main synthetic image generation and analysis tools, as well as the integration of [GenerativeZoo](https://github.com/caetas/GenerativeZoo), an open-source image generation library.
 
-## How to Publish on GitHub Pages
-Follow these steps to publish this project on GitHub Pages using your own repository:
+## CamFITool
+- Add various types of errors to existing images
+- Adjust different distortion levels
+- Automatically add noise, blur, and other anomalies
+- Make artificially created errors realistic
+- Create large datasets with batch processing
 
-### Step 1: Fork the Repository
-1. Go to the original repository on GitHub.
-2. Click the "Fork" button at the top-right corner of the page to create a copy of the repository under your GitHub account.
+## CamGenTool
+- Generate synthetic images based on sample images
+- Create variations with different parameters
+- Adjust position, color, and size of objects
+- Customize image backgrounds and lighting conditions
+- Produce large datasets with batch operations
 
-### Step 2: Clone the Repository
-1. Open your terminal.
-2. Navigate to the directory where you want to clone the repository.
-3. Run the following command to clone the repository:
-   ```bash
-   git clone https://github.com/your-username/tasti-vite.git
-   ```
-4. Change into the project directory:
-   ```bash
-   cd tasti-vite
-   ```
+## CamTrainTool
+- Train LoRA (Low-Rank Adaptation) models
+- Customize models with custom datasets
+- Fine-tune training parameters
+- Analyze and evaluate model performance
+- Monitor the training process visually
 
-### Step 3: Build the Project
-1. Ensure you have Node.js and npm installed on your machine.
-2. Run the following command to install the project dependencies:
-   ```bash
-   npm install
-   ```
-3. Build the project for production:
-   ```bash
-   npm run build
-   ```
+## CamQTool
+- Analyze realism of synthetic images
+- Assess image quality and clarity
+- Perform histogram and texture analysis
+- Compare with reference images
+- Calculate quality scores with various metrics
 
-### Step 4: Deploy to GitHub Pages
-1. Deploy the project using the following command:
-   ```bash
-   npm run deploy
-   ```
+## GenerativeZoo
+GenerativeZoo is an innovative generative algorithm library developed using Python and PyTorch. Created within the Xecs TASTI project (nr. 2022005), it is a unique collection of 27 different models, brought together by standardized, user-friendly, and independent code structures. The library offers practical solutions to researchers and developers with comprehensive documentation and example scenarios.
 
-### Step 5: Publish on GitHub Pages
-1. Go to your forked repository on GitHub.
-2. Click on the "Settings" tab.
-3. Scroll down to the "GitHub Pages" section.
-4. Under "Source", select the `gh-pages` branch.
-5. Click "Save".
-6. Your site will be published at `https://your-username.github.io/tasti-vite/`.
+GitHub Page: [GenerativeZoo](https://github.com/caetas/GenerativeZoo)
 
-### Step 6: Access Your Published Site
-1. Open a web browser.
-2. Navigate to `https://your-username.github.io/tasti-vite/` to view your published site.
+---
 
-By following these steps, you can successfully publish the TASTI Vite project on GitHub Pages using your own repository. Enjoy exploring the synthetic vision solutions offered by the platform!
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](./LICENSE) file for more information.
