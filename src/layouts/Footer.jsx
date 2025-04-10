@@ -34,7 +34,7 @@ const Footer = () => {
           <div>
             <h3 className="text-white font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2 mb-4">
-              <li>Email: acd@acd.com.tr</li>
+              <li>Email: tasti.web.site@gmail.com</li>
               <li>Phone: +90 222 236 20 10</li>
             </ul>
             <div className="w-full h-48 rounded-lg overflow-hidden">

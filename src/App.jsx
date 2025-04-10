@@ -21,8 +21,8 @@ function App() {
       <MainPage>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/contactus" element={<ContactUs />} />
-          <Route path="/trydemo" element={<TryDemo />} />
+          {/*<Route path="/contactus" element={<ContactUs />} />
+          <Route path="/trydemo" element={<TryDemo />} />*/}
           <Route path="/camfitool" element={<CamFITool />} />
           <Route path="/camgentool" element={<CamGenTool />} />
           <Route path="/camtraintool" element={<CamTrainTool />} />

@@ -1,13 +1,6 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
 
 const Hero = ({ title, description, image, imageAlt }) => {
-  const navigate = useNavigate();
-
-  const handleButtonClick = () => {
-    navigate('/trydemo');
-  };
-
   return (
     <div className="container mx-auto px-4 md:px-8">
       <div className="flex flex-col sm:flex-row items-center justify-center gap-16 max-w-7xl mx-auto">
@@ -22,8 +15,14 @@ const Hero = ({ title, description, image, imageAlt }) => {
 
           <div className="w-full sm:w-auto flex flex-col sm:flex-row gap-3">
             <button 
-              onClick={handleButtonClick}
-              className="border rounded-md px-6 py-3 font-medium text-lg bg-[#1F2937] text-[#FFFFFF] border-[#1F2937] hover:bg-[#374151] transition-colors">
+              onClick={() =>
+                window.open(
+                  'https://docs.google.com/forms/d/e/1FAIpQLSeKjDugfymyIg_L887jeJ1PK7RtziSoBPhMGpBuOo_A-GDpXw/viewform?usp=header',
+                  '_blank'
+                )
+              }
+              className="border rounded-md px-6 py-3 font-medium text-lg bg-[#1F2937] text-[#FFFFFF] border-[#1F2937] hover:bg-[#374151] transition-colors"
+            >
               Join Our Beta Program
             </button>
           </div>
