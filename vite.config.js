@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/tasti-vite/', 
+  base: '/tasti/', 
   plugins: [react(), tailwindcss()],
   server: {
     historyApiFallback: true,

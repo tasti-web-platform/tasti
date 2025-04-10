@@ -1,6 +1,6 @@
 # TASTI Web Platform Wishlist Page
 
-Live Wishlist Site: [https://tasti-web-platform.github.io/tasti-vite](https://tasti-web-platform.github.io/tasti-vite)
+Live Wishlist Site: [https://tasti-web-platform.github.io/tasti](https://tasti-web-platform.github.io/tasti)
 
 TASTI WEB PLATFORM is an innovative solution developed by [ACD Veri Mühendisliği](https://www.acd.com.tr/) within the TASTI project, designed to create synthetic images for industrial applications. The platform consists of four main synthetic image generation and analysis tools, as well as the integration of [GenerativeZoo](https://github.com/caetas/GenerativeZoo), an open-source image generation library.
 
