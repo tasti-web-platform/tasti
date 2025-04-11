@@ -1,18 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo_tasti_light.png';
+
 const Footer = () => {
   return (
     <footer className="bg-[#1F2937] text-gray-300">
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
-          <div className="space-y-4">
-            <img src={logo} alt="TASTI Logo" className="h-3/4" />
+          <div className="flex justify-center md:justify-start">
+            <img src={logo} alt="TASTI Logo" className="h-32 md:h-3/4 w-auto object-contain" />
           </div>
 
           {/* Quick Links */}
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="text-white font-bold mb-4">Tools</h3>
             <ul className="space-y-2">
               <li>
@@ -31,7 +32,7 @@ const Footer = () => {
           </div>
 
           {/* Contact Info */}
-          <div>
+          <div className="text-center md:text-left">
             <h3 className="text-white font-bold mb-4">Contact Us</h3>
             <ul className="space-y-2 mb-4">
               <li>Email: tasti.web.site@gmail.com</li>
