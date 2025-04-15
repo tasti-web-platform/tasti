@@ -10,7 +10,7 @@ import GenerativeZooLogo from '../assets/GenerativeZoo.png';
 
 const heroData = {
   title: "TASTI Web Platform Closed Beta Program",
-  description: "TASTI Web Platform is an innovative solution designed to create synthetic images for industrial applications. Our platform uses artificial intelligence to revolutionize image creation processes for factories and production facilities.",
+  description: "TASTI Web Platform is an innovative solution designed to generate synthetic images for industrial applications. Our platform uses artificial intelligence to revolutionize image generation processes for factories and production facilities.",
   buttonText: "Join Our Beta Program",
   buttonLink: "/trydemo",
   image: HeroImage,
@@ -22,11 +22,11 @@ const tools = [
     title: 'CamFITool (Camera Fault Injection Tool)',
     image: CamFiToolLogo,
     description: [
-      'Add various types of errors to existing images',
+      'Add various types of faults to existing images',
       'Adjust different distortion levels',
       'Automatically add noise, blur and other anomalies',
-      'Making artificially created errors realistic',
-      'Create large data sets with batch processing'
+      'Making artificially generated faults realistic',
+      'Generate large data sets with batch processing'
     ],
     link: '/camfitool'
   },
@@ -35,10 +35,10 @@ const tools = [
     image: CamGenToolLogo,
     description: [
       'Synthetic image generation based on sample images',
-      'Create several variations with different parameters',
+      'Generate several variations with different parameters',
       'Adjust position, color and size of objects',
       'Customize image background and lighting conditions',
-      'Create large data sets with batch production'
+      'Generate large data sets with batch production'
     ],
     link: '/camgentool'
   },

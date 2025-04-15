@@ -11,7 +11,7 @@ const WhatIsTasti = () => {
     <div className="space-y-16 py-8">
       <Hero
         title="What is TASTI?"
-        description="TASTI (Test Automation and Synthetic Test Image Tool) is a powerful toolkit that simplifies visual test automation and synthetic image generation. It is ideal for projects in artificial intelligence, machine learning, and computer vision. TASTI helps teams easily create, edit, and evaluate test images, making it easier to ensure the accuracy and resilience of their visual systems."
+        description="TASTI (Application-Tailored Synthetic İmage Generation) is a powerful toolkit that simplifies visual test automation and synthetic image generation. It is ideal for projects in artificial intelligence, machine learning, and computer vision. TASTI helps teams easily generate, edit, and evaluate test images, making it easier to ensure the accuracy and resilience of their visual systems."
         image={logo2}
         imageAlt="TASTI Overview"
       />

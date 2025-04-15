@@ -8,7 +8,7 @@ import UseCase from '../assets/UseCase.png';
 
 const heroData = {
   title: "CamTrainTool (Camera Synthetic Image Model Training Tool)",
-  description: "CamTrainTool is a tool for training LoRA models for use in CamGenTool. This tool allows you to create models tailored to your own specific dataset.",
+  description: "CamTrainTool is a tool for training LoRA models for use in CamGenTool. This tool allows you to generate models tailored to your own specific dataset.",
   image: CamTrainToolImage,
   imageAlt: "CamTrainTool Demo"
 };
@@ -29,7 +29,7 @@ const toolData1 = {
 const toolData2 = {
   title: "Use Cases",
   features: [
-    "Create models specific to special production processes",
+    "Generate models specific to special production processes",
     "Develop AI models that focus on specific parts (industrial, healthcare, etc.)",
     "Optimize existing models with customized data sets for your company",
     "Train customized models for different product variations"

@@ -7,7 +7,7 @@ import UseCase from '../assets/UseCase.png';
 
 const heroData = {
   title: "CamFITool (Camera Fault Injection Tool)",
-  description: "CamFITool is a powerful tool that automatically adds various image errors to existing images, creating a dataset full of distortions and anomalies. This tool is ideal for training your machine learning models with various error scenarios.",
+  description: "CamFITool is a powerful tool that automatically adds various image faults to existing images, creating a dataset full of distortions and anomalies. This tool is ideal for training your machine learning models with various fault scenarios.",
   image: CamFIToolImage,
   imageAlt: "CamFITool Demo"
 };
@@ -15,10 +15,10 @@ const heroData = {
 const toolData1 = {
   title: "Features",
   features: [
-    "Add various types of errors to existing images",
+    "Add various types of faults to existing images",
     "Adjust different distortion levels",
     "Automatically add noise, blur and other anomalies",
-    "Making artificially created errors realistic",
+    "Making artificially created faults realistic",
     "Create large data sets with batch processing"
   ],
   image: CamFIToolData1,

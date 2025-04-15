@@ -37,17 +37,17 @@ const Footer = () => {
           <div className="text-center md:text-left">
             <h3 className="text-white font-bold mb-4">Contact Us</h3>
             <div className="flex flex-col md:flex-row gap-8">
-              <div className="space-y-2 mb-4">
+              <div className="text-[#1F2937] space-y-2 mb-4 bg-[#F0EBF8] p-4 rounded-lg">
                 <ul className="space-y-2 mb-4">
-                  <li>tasti.web.site@gmail.com</li>
-                  <li>acd@acd.com.tr </li>
-                  <li>+90 222 236 20 10</li>
+                  <li>📧 <a href="mailto:tasti.web.site@gmail.com" className="hover:underline">tasti.web.site@gmail.com</a></li>
+                  <li>📧 <a href="mailto:acd@acd.com.tr" className="hover:underline">acd@acd.com.tr</a></li>
+                  <li>📞 +90 222 236 20 10</li>
                 </ul>
-                <div className="space-y-2 mb-4">
-                  <p>Büyükdere Mah. Prof.Dr.Nabi Avcı Bulvarı,</p>
-                  <p>Eskişehir Osmangazi Üniversitesi Teknoparkı</p>
-                  <p>No: 4/59 B24 Odunpazarı ESKİŞEHİR</p>
-                </div>
+                <ul className="space-y-2 mb-4">
+                  <li>📍 Büyükdere Neighborhood, Prof. Dr. Nabi Avcı Boulevard,</li>
+                  <li>Eskişehir Osmangazi University Technopark</li>
+                  <li>No: 4/59 B24 Odunpazarı, ESKİŞEHİR</li>
+                </ul>
               </div>
               <div className="flex flex-col items-center">
                 <div className="w-full h-48 rounded-lg overflow-hidden">
