@@ -6,7 +6,7 @@ import CamFIToolData1 from '../assets/CamFIToolData1.png';
 import UseCase from '../assets/UseCase.png';
 
 const heroData = {
-  title: "CamFITool",
+  title: "CamFITool (Camera Fault Injection Tool)",
   description: "CamFITool is a powerful tool that automatically adds various image errors to existing images, creating a dataset full of distortions and anomalies. This tool is ideal for training your machine learning models with various error scenarios.",
   image: CamFIToolImage,
   imageAlt: "CamFITool Demo"

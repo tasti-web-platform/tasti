@@ -19,7 +19,7 @@ const heroData = {
 
 const tools = [
   {
-    title: 'CamFITool',
+    title: 'CamFITool (Camera Fault Injection Tool)',
     image: CamFiToolLogo,
     description: [
       'Add various types of errors to existing images',
@@ -31,7 +31,7 @@ const tools = [
     link: '/camfitool'
   },
   {
-    title: 'CamGenTool',
+    title: 'CamGenTool (Camera Synthetic Image Generation Tool)',
     image: CamGenToolLogo,
     description: [
       'Synthetic image generation based on sample images',
@@ -43,7 +43,7 @@ const tools = [
     link: '/camgentool'
   },
   {
-    title: 'CamTrainTool',
+    title: 'CamTrainTool (Camera Synthetic Image Model Training Tool)',
     image: CamTrainToolLogo,
     description: [
       'Training LoRA (Low-Rank Adaptation) models',
@@ -55,7 +55,7 @@ const tools = [
     link: '/camtraintool'
   },
   {
-    title: 'CamQTool',
+    title: 'CamQTool (Camera Image Quality Assesment Tool)',
     image: CamQToolLogo,
     description: [
       'Realism analysis of synthetic images',

@@ -7,7 +7,7 @@ import UseCase from '../assets/UseCase.png';
 
 
 const heroData = {
-  title: "CamTrainTool",
+  title: "CamTrainTool (Camera Synthetic Image Model Training Tool)",
   description: "CamTrainTool is a tool for training LoRA models for use in CamGenTool. This tool allows you to create models tailored to your own specific dataset.",
   image: CamTrainToolImage,
   imageAlt: "CamTrainTool Demo"

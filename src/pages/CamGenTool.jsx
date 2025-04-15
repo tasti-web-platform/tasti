@@ -6,7 +6,7 @@ import CamGenToolData1 from '../assets/CamGenToolData1.png';
 import UseCase from '../assets/UseCase.png';
 
 const heroData = {
-  title: "CamGenTool",
+  title: "CamGenTool (Camera Synthetic Image Generation Tool)",
   description: "CamGenTool is a powerful tool for automatic creation of synthetic images based on sample images. This tool allows you to create images that are similar to real images but completely synthetic.",
   image: CamGenToolImage,
   imageAlt: "CamGenTool Demo"

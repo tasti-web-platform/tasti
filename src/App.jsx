@@ -2,7 +2,7 @@ import './App.css'
 import NavBar from './layouts/NavBar';
 import MainPage from './layouts/MainPage';
 import Footer from './layouts/Footer';
-import { HashRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './pages/Home';
 import CamFITool from './pages/CamFITool';
 import CamGenTool from './pages/CamGenTool';
@@ -19,6 +19,7 @@ function App() {
       <NavBar />
       <MainPage>
         <Routes>
+          <Route path="/" element={<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/what-is-tasti" element={<WhatIsTasti />} />
           {/*<Route path="/contactus" element={<ContactUs />} />

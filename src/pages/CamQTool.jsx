@@ -6,7 +6,7 @@ import CamQToolData1 from '../assets/CamQToolData1.png';
 import UseCase from '../assets/UseCase.png';
 
 const heroData = {
-  title: "CamQTool",
+  title: "CamQTool (Camera Image Quality Assesment Tool)",
   description: "CamQTool is a quality control tool that allows synthetic images obtained with CamGenTool to be analyzed with various mathematical and software metrics and to use the appropriate images.",
   image: CamQToolImage,
   imageAlt: "CamQTool Demo"
