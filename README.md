@@ -9,18 +9,18 @@ TASTI WEB PLATFORM is an innovative solution developed by [ACD Veri MÃ¼hendisliÄ
 - Adjust different distortion levels
 - Automatically add noise, blur, and other anomalies
 - Make artificially created errors realistic
-- Create large datasets with batch processing
+- Create large data sets with batch processing
 
 ## CamGenTool
 - Generate synthetic images based on sample images
 - Create variations with different parameters
 - Adjust position, color, and size of objects
 - Customize image backgrounds and lighting conditions
-- Produce large datasets with batch operations
+- Produce large data sets with batch operations
 
 ## CamTrainTool
 - Train LoRA (Low-Rank Adaptation) models
-- Customize models with custom datasets
+- Customize models with custom data sets
 - Fine-tune training parameters
 - Analyze and evaluate model performance
 - Monitor the training process visually

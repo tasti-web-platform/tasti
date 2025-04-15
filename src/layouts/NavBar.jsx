@@ -17,7 +17,7 @@ const NavBar = () => {
           {/* Desktop menu */}
           <div className="hidden md:flex items-center">
             <div className="flex space-x-8">
-              <Link to="/" className="text-gray-300 hover:text-white font-medium text-sm">
+              <Link to="/home" className="text-gray-300 hover:text-white font-medium text-sm">
                 Home
               </Link>
               <Link to="/what-is-tasti" className="text-gray-300 hover:text-white font-medium text-sm">

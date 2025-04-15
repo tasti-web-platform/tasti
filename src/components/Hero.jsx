@@ -25,7 +25,7 @@ const Hero = ({ title, description, image, imageAlt }) => {
             >
               Join Our Beta Program
             </button>
-          </div>,
+          </div>
         </div>
 
         <div className="w-full sm:w-1/2 flex justify-center">

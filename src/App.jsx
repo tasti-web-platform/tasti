@@ -4,8 +4,6 @@ import MainPage from './layouts/MainPage';
 import Footer from './layouts/Footer';
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
-import ContactUs from './pages/ContactUs';
-import TryDemo from './pages/TryDemo';
 import CamFITool from './pages/CamFITool';
 import CamGenTool from './pages/CamGenTool';
 import CamTrainTool from './pages/CamTrainTool';
@@ -21,7 +19,7 @@ function App() {
       <NavBar />
       <MainPage>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
           <Route path="/what-is-tasti" element={<WhatIsTasti />} />
           {/*<Route path="/contactus" element={<ContactUs />} />
           <Route path="/trydemo" element={<TryDemo />} />*/}

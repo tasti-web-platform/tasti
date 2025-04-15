@@ -30,7 +30,7 @@ const toolData2 = {
   features: [
     "Product visualization and prototyping",
     "Generating training data for machine learning",
-    "Simulation of difficult to collect situations",
+    "Simulation of rare or hard-to-collect scenarios",
     "Visual design of production processes"
   ],
   image: UseCase,

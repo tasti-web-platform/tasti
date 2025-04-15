@@ -10,7 +10,7 @@ import GenerativeZooLogo from '../assets/GenerativeZoo.png';
 
 const heroData = {
   title: "TASTI Web Platform Closed Beta Program",
-  description: "TASTI WEB PLATFORM is an innovative solution designed to create synthetic images for industrial applications. Our platform uses artificial intelligence to revolutionize image creation processes for factories and production facilities.",
+  description: "TASTI Web Platform is an innovative solution designed to create synthetic images for industrial applications. Our platform uses artificial intelligence to revolutionize image creation processes for factories and production facilities.",
   buttonText: "Join Our Beta Program",
   buttonLink: "/trydemo",
   image: HeroImage,
@@ -72,8 +72,8 @@ const tools = [
     description: [
       'GenerativeZoo is an innovative generative algorithm library developed using Python and PyTorch. Developed within the Xecs TASTI project (nr. 2022005), it is a unique collection of 27 different models, brought together by standardized, user-friendly and independent code structures. The library offers practical solutions to researchers and developers with comprehensive documentation and example scenarios.'
     ],
-    link: '',
-    showLink: false
+    link: 'https://github.com/caetas/GenerativeZoo',
+    showLink: true
   }
 ];
 

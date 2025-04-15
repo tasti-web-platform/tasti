@@ -30,7 +30,7 @@ const toolData2 = {
   title: "Use Cases",
   features: [
     "Create models specific to special production processes",
-    "Develop AI models that focus on specific parts",
+    "Develop AI models that focus on specific parts (industrial, healthcare, etc.)",
     "Optimize existing models with customized data sets for your company",
     "Train customized models for different product variations"
   ],

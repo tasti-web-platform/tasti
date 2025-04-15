@@ -7,7 +7,7 @@ import UseCase from '../assets/UseCase.png';
 
 const heroData = {
   title: "CamFITool",
-  description: "CamQTool is a quality control tool that allows synthetic images obtained with CamGenTool to be analyzed with various mathematical and software metrics and to use the appropriate images.",
+  description: "CamFITool is a powerful tool that automatically adds various image errors to existing images, creating a dataset full of distortions and anomalies. This tool is ideal for training your machine learning models with various error scenarios.",
   image: CamFIToolImage,
   imageAlt: "CamFITool Demo"
 };
@@ -15,11 +15,11 @@ const heroData = {
 const toolData1 = {
   title: "Features",
   features: [
-    "Realism analysis of synthetic images",
-    "Image quality and clarity assessment",
-    "Image histogram and texture analysis",
-    "Comparison with reference images",
-    "Quality score calculation with various metrics"
+    "Add various types of errors to existing images",
+    "Adjust different distortion levels",
+    "Automatically add noise, blur and other anomalies",
+    "Making artificially created errors realistic",
+    "Create large data sets with batch processing"
   ],
   image: CamFIToolData1,
   imageAlt: "CamFITool Features"
@@ -28,10 +28,10 @@ const toolData1 = {
 const toolData2 = {
   title: "Use Cases",
   features: [
-    "Quality control of the synthetic images produced",
-    "Assess and improve dataset quality",
-    "Improving model performance by selecting the most appropriate images",
-    "Analyze the differences between real and synthetic images"
+    "Training fault detection models for quality control systems",
+    "Anomaly detection in production lines",
+    "Testing the robustness of image processing algorithms",
+    "Data enrichment and enhancing model resilience"
   ],
   image: UseCase,
   imageAlt: "CamFITool Use Cases"

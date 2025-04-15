@@ -12,7 +12,9 @@ const ToolCard = ({ title, image, description, link, showLink = true }) => {
         ))}
       </ul>
       {showLink && (
-        <Link to={link} className="text-blue-500 hover:underline">Explore Our Solution</Link>
+        <Link to={link} className="text-blue-500 hover:underline">
+          {link.includes('github') ? 'Go To Github Page' : 'Explore Our Solution'}
+        </Link>
       )}
     </div>
   );
