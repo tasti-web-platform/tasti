@@ -8,7 +8,7 @@ import UseCase from '../assets/UseCase.png';
 
 const heroData = {
   title: "CamTrainTool (Camera Synthetic Image Model Training Tool)",
-  description: "CamTrainTool is a tool for training LoRA models for use in CamGenTool. This tool allows you to generate models tailored to your own specific dataset.",
+  description: "CamTrainTool is a tool for training LoRA models with Stable Diffusion main models using reference images. This tool allows you to create customized LoRA models to be used for the extension of your own custom dataset with synthetic images.",
   image: CamTrainToolImage,
   imageAlt: "CamTrainTool Demo"
 };
@@ -16,11 +16,8 @@ const heroData = {
 const toolData1 = {
   title: "Features",
   features: [
-    "Training LoRA (Low-Rank Adaptation) models",
-    "Customize models with custom data sets",
-    "Fine-tuning training parameters",
-    "Analyze and evaluate model performance",
-    "Visually monitoring the training process"
+    'Training LoRA (Low Rank Adaptation) models using sample datasets',
+    'Fine-tuning training parameters'
   ],
   image: CamTrainToolData1,
   imageAlt: "CamTrainTool Features"

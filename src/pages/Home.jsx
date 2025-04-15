@@ -10,7 +10,7 @@ import GenerativeZooLogo from '../assets/GenerativeZoo.png';
 
 const heroData = {
   title: "TASTI Web Platform Closed Beta Program",
-  description: "TASTI Web Platform is an innovative solution designed to generate synthetic images for industrial applications. Our platform uses artificial intelligence to revolutionize image generation processes for factories and production facilities.",
+  description: "The TASTI Web Platform is an innovative solution designed to generate synthetic images for industrial applications. Our platform uses artificial intelligence to revolutionize image generation processes for everyone.",
   buttonText: "Join Our Beta Program",
   buttonLink: "/trydemo",
   image: HeroImage,
@@ -22,11 +22,8 @@ const tools = [
     title: 'CamFITool (Camera Fault Injection Tool)',
     image: CamFiToolLogo,
     description: [
-      'Add various types of faults to existing images',
-      'Adjust different distortion levels',
-      'Automatically add noise, blur and other anomalies',
-      'Making artificially generated faults realistic',
-      'Generate large data sets with batch processing'
+      'Inject 13 different fault types into images',
+      'Create large libraries of faulty images with one click'
     ],
     link: '/camfitool'
   },
@@ -34,11 +31,9 @@ const tools = [
     title: 'CamGenTool (Camera Synthetic Image Generation Tool)',
     image: CamGenToolLogo,
     description: [
-      'Synthetic image generation based on sample images',
-      'Generate several variations with different parameters',
-      'Adjust position, color and size of objects',
-      'Customize image background and lighting conditions',
-      'Generate large data sets with batch production'
+      'Synthetic image generation based on reference images',
+      'Generate various synthetic image variations with different parameters',
+      'Create large libraries of synthetic images with one click'
     ],
     link: '/camgentool'
   },
@@ -46,11 +41,8 @@ const tools = [
     title: 'CamTrainTool (Camera Synthetic Image Model Training Tool)',
     image: CamTrainToolLogo,
     description: [
-      'Training LoRA (Low-Rank Adaptation) models',
-      'Customize models with custom data sets',
-      'Fine-tuning training parameters',
-      'Analyze and evaluate model performance',
-      'Visually monitoring the training process'
+      'Training LoRA (Low Rank Adaptation) models using sample datasets',
+      'Fine-tuning training parameters'
     ],
     link: '/camtraintool'
   },
@@ -58,10 +50,8 @@ const tools = [
     title: 'CamQTool (Camera Image Quality Assesment Tool)',
     image: CamQToolLogo,
     description: [
-      'Realism analysis of synthetic images',
-      'Image quality and clarity assessment',
-      'Image histogram and texture analysis',
-      'Comparison with reference images',
+      'Analyzing the correspondence of synthetic images to real images',
+      'Image quality assessment',
       'Quality score calculation with various metrics'
     ],
     link: '/camqtool'

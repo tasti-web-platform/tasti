@@ -7,7 +7,7 @@ import UseCase from '../assets/UseCase.png';
 
 const heroData = {
   title: "CamGenTool (Camera Synthetic Image Generation Tool)",
-  description: "CamGenTool is a powerful tool for automatic generation of synthetic images based on sample images. This tool allows you to generate images that are similar to real images but completely synthetic.",
+  description: "CamGenTool is a powerful tool for the automatic generation of synthetic images with the using reference images or image prompts. This tool allows you to generate images that resemble real images but are completely synthetic. This real image similarity can be enhanced by the power of LoRA models trained with reference images.",
   image: CamGenToolImage,
   imageAlt: "CamGenTool Demo"
 };
@@ -15,11 +15,9 @@ const heroData = {
 const toolData1 = {
   title: "Features",
   features: [
-    "Synthetic image generation based on sample images",
-    "Generate several variations with different parameters",
-    "Adjust position, color and size of objects",
-    "Customize image background and lighting conditions",
-    "Generate large data sets with batch production"
+    'Synthetic image generation based on reference images',
+    'Generate various synthetic image variations with different parameters',
+    'Create large libraries of synthetic images with one click'
   ],
   image: CamGenToolData1,
   imageAlt: "CamGenTool Features"

@@ -7,7 +7,7 @@ import UseCase from '../assets/UseCase.png';
 
 const heroData = {
   title: "CamQTool (Camera Image Quality Assesment Tool)",
-  description: "CamQTool is a quality control tool that allows synthetic images obtained with CamGenTool to be analyzed with various mathematical and software metrics and to use the appropriate images.",
+  description: "CamQTool is a tool for quality assessment of synthetic images using various mathematical and pixel-based evoluation metrics.",
   image: CamQToolImage,
   imageAlt: "CamQTool Demo"
 };
@@ -15,11 +15,9 @@ const heroData = {
 const toolData1 = {
   title: "Features",
   features: [
-    "Realism analysis of synthetic images",
-    "Image quality and clarity assessment",
-    "Image histogram and texture analysis",
-    "Comparison with reference images",
-    "Quality score calculation with various metrics"
+    'Analyzing the correspondence of synthetic images to real images',
+    'Image quality assessment',
+    'Quality score calculation with various metrics'
   ],
   image: CamQToolData1,
   imageAlt: "CamQTool Features"
