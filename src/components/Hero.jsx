@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Hero = ({ title, description, image, imageAlt }) => {
+const Hero = ({ title, description, image, imageAlt, showProjectButton = false }) => {
   return (
     <div className="container mx-auto px-4 md:px-8">
       <div className="flex flex-col sm:flex-row items-center justify-center gap-16 max-w-7xl mx-auto">
@@ -25,6 +25,15 @@ const Hero = ({ title, description, image, imageAlt }) => {
             >
               Join Our Beta Program
             </button>
+            
+            {showProjectButton && (
+              <button 
+                onClick={() => window.open('https://tasti-project.eu', '_blank')}
+                className="border rounded-md px-6 py-3 font-medium text-lg bg-[#374151] text-[#FFFFFF] border-[#374151] hover:bg-[#1F2937] transition-colors"
+              >
+                For More Information
+              </button>
+            )}
           </div>
         </div>
 

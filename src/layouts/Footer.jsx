@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../assets/logo_tasti_light.png';
-import AcdLogo from '../assets/AcdLogo.png';
+import AcdLogo from '../assets/AcdLogo2.png';
 
 const Footer = () => {
   return (
@@ -9,9 +9,12 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
-          <div className="flex justify-center md:justify-start">
+          <div className="flex flex-col items-center md:items-start space-y-4 pt-0 -mt-12">
             <img src={logo} alt="TASTI Logo" className="h-32 md:h-3/4 w-auto object-contain" />
-            
+            <div className="text-sm text-gray-400 max-w-xs text-center md:text-left pl-0 md:pl-10">
+              This work is supported by 2022005 Application-tailored synthetic image generation – TASTI project under Xecs program. 
+              Also, this study was supported by Scientific and Technological Research Council of Turkey (TUBITAK) under the Grant Number 9220032. The authors thank to TUBITAK for their supports.
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -63,7 +66,7 @@ const Footer = () => {
                     title="TASTI Location"
                   />
                 </div>
-                <img src={AcdLogo} alt="ACD Logo" className="w-36 h-14 mt-4" />
+                {/* <img src={AcdLogo} alt="ACD Logo" className="w-36 h-14 mt-4" /> */}
               </div>
             </div>
           </div>
